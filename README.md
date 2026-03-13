@@ -29,28 +29,6 @@ This project demonstrates integration between document processing, REST APIs, an
         Maven
         REST APIs
 
-# Project Architecture
-Controller Layer
-    │
-    ▼
-DocumentController
-    │
-    ▼
-Service Layer
-    ├── DocumentService
-    ├── OpenAIService
-    └── PdfGeneratorService
-    │
-    ▼
-Utility Layer
-    └── FileValidator
-    │
-    ▼
-Exception Layer
-    ├── FileLimitExceededException
-    ├── NoFileUploadedException
-    └── InvalidFileTypeException
-
 # API Endpoints
   # 1️⃣ Upload and Summarize Documents
     **POST**
@@ -77,7 +55,7 @@ Exception Layer
       Downloads a generated PDF file containing the summarized content.
 
 # How it Works
-        
+  Upload PDF File  -->  File Validation  -->  PDF Text Extraction (PDFBox)  -->  OpenAI API Summarization  -->  Return Summary JSON  -->  Generate Downloadable PDF    
 
 # Author
 
