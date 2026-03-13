@@ -1,0 +1,10 @@
+openai:
+  api:
+    key: ${OPENAI_API_KEY}
+  url: https://api.openai.com/v1/chat/completions
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size:  20MB
+      max-request-size: 20MB

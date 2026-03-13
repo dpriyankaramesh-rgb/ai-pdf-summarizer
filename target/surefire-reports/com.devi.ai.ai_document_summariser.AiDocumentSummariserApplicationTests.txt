@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.devi.ai.ai_document_summariser.AiDocumentSummariserApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.99 s -- in com.devi.ai.ai_document_summariser.AiDocumentSummariserApplicationTests
