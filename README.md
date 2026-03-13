@@ -77,22 +77,7 @@ Exception Layer
       Downloads a generated PDF file containing the summarized content.
 
 # How it Works
-Upload PDF files
-        │
-        ▼
-File Validation
-        │
-        ▼
-PDF Text Extraction (PDFBox)
-        │
-        ▼
-OpenAI API Summarization
-        │
-        ▼
-Return Summary JSON
-        │
-        ▼
-Generate Downloadable PDF
+        
 
 # Author
 
